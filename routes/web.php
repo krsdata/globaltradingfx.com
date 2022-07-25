@@ -54,16 +54,7 @@ Route::middleware('auth')->group(function () {
 
     Route::middleware('role:2')->group(function (){
 
-       Route::get('/position',"StaffController@index")->name('position.index');
-        Route::get('/position/{id}',"StaffController@edit")->name('position.edit');
-
-        Route::get('/deposit',"StaffController@addDeposit")->name('deposit.add'); 
-        Route::get('/getdeposit',"StaffController@AllDeposit")->name('deposit.getdeposit'); 
-        Route::post('/add_deposit',"StaffController@storDeposit")->name('deposit.add_deposit'); 
-
-        Route::get('/withdrawal',"StaffController@addwithdrawal")->name('withdrawal.add'); 
-        Route::get('/getwithdrawal',"StaffController@allWithdrawal")->name('withdrawal.getwithdrawal'); 
-        Route::post('/add_withdrawal',"StaffController@storWithdrawal")->name('withdrawal.add_withdrawal');
+       //
         
        
     });     
