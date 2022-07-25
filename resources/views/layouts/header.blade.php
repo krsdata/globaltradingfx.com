@@ -34,7 +34,7 @@
           @if(Auth()->user()->image)
             <img class="img-profile rounded-circle" style="height: 30px; width: 30px;"  src="{{asset(Auth()->user()->image)}}">
           @else
-            <img class="img-profile rounded-circle" src="{{asset('backend/img/payments.png')}}">
+            <img class="img-profile rounded-circle" style="height: 30px; width: 30px;" src="{{asset('backend/img/payments.png')}}">
           @endif
         </a>
         <!-- Dropdown - User Information -->
