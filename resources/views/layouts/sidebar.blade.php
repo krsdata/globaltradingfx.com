@@ -2,7 +2,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4" style="position: fixed">
     <!-- Brand Logo -->
     <a href="#" class="brand-link elevation-4">
-      <img src="{{asset('backend/img/trade_logo.png')}}" alt="PhotoBuddy Logo" class="brand-image img-circle elevation-3 " style="opacity: .8">
+      <img src="{{asset('backend/img/logo.png')}}" alt="PhotoBuddy Logo" class="brand-image img-circle elevation-3 ">
       <span class="brand-text font-weight-light">Treading</span>
     </a>
 

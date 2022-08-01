@@ -2,9 +2,9 @@
 <!-- Site wrapper -->
 <div class="wrapper">
   <!-- Preloader -->
-  <div class="preloader flex-column justify-content-center align-items-center">
+  <!-- <div class="preloader flex-column justify-content-center align-items-center">
     <img class="animation__shake" src="{{asset('dist/img/trade_logo.png')}}" alt="PhotoBuddy" height="70" width="70">
-  </div>
+  </div> -->
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light fixed-top">
     <!-- Left navbar links -->

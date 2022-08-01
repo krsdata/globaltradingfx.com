@@ -9,7 +9,7 @@
 
 </head>
 
-<body class="body-bg">
+<body class="">
 
   <div class="container">
 
@@ -18,7 +18,7 @@
 
       <div class="col-xl-6 col-lg-6 col-md-6 mt-2">
         <div class="col-lg-12 text-center">
-            <img class="login-logo" src="{{asset('backend/img/trade_logo.png')}}">
+            <img class="login-logo" src="{{asset('backend/img/logo.png')}}" style="width: 35%;">
           </div>
         <div class="card o-hidden border-0 shadow-lg mb-4">
           <div class="card-body p-0">
