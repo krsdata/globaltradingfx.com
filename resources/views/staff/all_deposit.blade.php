@@ -40,7 +40,7 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-                <table id="user-dataTable" class="table table-bordered table-hover" width="100%">
+                <table id="user-dataTable" class="table table-bordered table-hover table-responsive" width="100%">
                   <thead>
                             <tr>
                               <th>SNo.</th>
