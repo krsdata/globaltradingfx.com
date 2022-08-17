@@ -77,18 +77,6 @@
                         <?php $i++; ?>
                        @endforeach
                       </tbody>
-                      <tfoot>
-                         <tr>
-                              <th>S.NO.</th>
-                              <th>User Name</th>
-                              <th>Market Name</th>
-                              <th>Bid Amount</th>
-                              <th>P & L Amount</th>
-                              <th>Date | Time</th>
-                              <th>Status</th>
-                              <th>Action</th>
-                            </tr>
-                      </tfoot>
                 </table>
               </div>
               <!-- /.card-body -->

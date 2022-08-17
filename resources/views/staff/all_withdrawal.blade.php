@@ -70,17 +70,6 @@
                         </tr>
                         <?php $i++; ?>
                        @endforeach
-                      </tbody>
-                      <tfoot>
-                         <tr>
-                              <th>S.NO.</th>
-                              <th>Request-ID</th>
-                              <th>Req. By</th>
-                              <th>Amount</th>
-                              <th>Date | Time</th>
-                              <th>Status</th>
-                            </tr>
-                      </tfoot>
                 </table>
               </div>
               <!-- /.card-body -->

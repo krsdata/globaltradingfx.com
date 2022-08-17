@@ -51,8 +51,8 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{route('position.index')}}" class="nav-link">
-              <i class="nav-icon fa fa-credit-card"></i>
+            <a href="{{route('deposit.getdeposit')}}" class="nav-link">
+              <i class="nav-icon fas fa-credit-card"></i>
               <p>
                 Deposits
                 <span class="right badge badge-warning">Deposits<i class="fas fa-angle-left right"></i></span>
@@ -62,14 +62,14 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="{{route('deposit.add')}}" class="nav-link">
-                  <i class="fa fa-arrow-right left" aria-hidden="true"></i>
+                  <i class="nav-icon fas fa-arrow-right left" aria-hidden="true"></i>
                    <p>Add Deposits</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{{route('deposit.getdeposit')}}" class="nav-link">
-                  <i class="fa fa-arrow-right left"></i>
-                  <p>ALL Deposits</p>
+                  <i class="nav-icon fas fa-arrow-right left"></i>
+                  <p>All Deposits</p>
                 </a>
               </li>           
             </ul>
@@ -77,7 +77,7 @@
 
           <li class="nav-item">
             <a href="{{route('withdrawal.getwithdrawal')}}" class="nav-link">
-             <i class="nav-icon fa fa-database left"></i>
+             <i class="nav-icon fas fa-database left"></i>
               <p>
                 Withdrawals
                 <span class="right badge badge-warning">Withdr<i class="fas fa-angle-left right"></i></span>
@@ -87,13 +87,13 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="{{route('withdrawal.add')}}" class="nav-link">
-                  <i class="fa fa-arrow-right left"></i>
+                  <i class="nav-icon fas fa-arrow-right left"></i>
                    <p>Withdrawal Request</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{{route('withdrawal.getwithdrawal')}}" class="nav-link">
-                  <i class="fa fa-arrow-right left"></i>
+                  <i class="nav-icon fas fa-arrow-right left"></i>
                   <p>ALL Withdrawals</p>
                 </a>
               </li>           

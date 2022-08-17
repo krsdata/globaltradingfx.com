@@ -43,8 +43,8 @@
                 <table id="user-dataTable" class="table table-bordered table-hover" width="100%">
                   <thead>
                             <tr>
-                              <th>S.NO.</th>
-                              <th>Txn-Id/th>
+                              <th>SNo.</th>
+                              <th>Txn-Id</th>
                               <th>Amount</th>
                               <th>Receipt</th>
                               <th>Date | Time</th>
@@ -71,16 +71,6 @@
                         <?php $i++; ?>
                        @endforeach
                       </tbody>
-                      <tfoot>
-                         <tr>
-                              <th>S.NO.</th>
-                              <th>Txn-Id/th>
-                              <th>Amount</th>
-                              <th>Receipt</th>
-                              <th>Date | Time</th>
-                              <th>Status</th>
-                            </tr>
-                      </tfoot>
                 </table>
               </div>
               <!-- /.card-body -->

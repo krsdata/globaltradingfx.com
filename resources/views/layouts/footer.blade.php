@@ -3,7 +3,7 @@
     <div class="float-right d-none d-sm-block">
       <b>Version</b> 3.2.0
     </div>
-    <strong>Copyright &copy; 2021-2022 <a href="#">Treading Trade</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; {{date('Y')}} <a href="#">GlobalFX</a>.</strong> All rights reserved.
   </footer>
 
 <!-- jQuery -->
@@ -17,7 +17,6 @@
 <!-- AdminLTE for demo purposes -->
 
 <!-- jQuery -->
-<script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
 <!-- DataTables  & Plugins -->
 <script src="{{asset('plugins/datatables/jquery.dataTables.min.js')}}"></script>
 <script src="{{asset('plugins/datatables-bs4/js/dataTables.bootstrap4.min.js')}}"></script>
