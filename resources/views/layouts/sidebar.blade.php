@@ -17,7 +17,7 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item" style="background:#007bff">
+          <li class="nav-item " style="background:#007bff">
             <a href="{{route('dashboard')}}" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
@@ -34,6 +34,15 @@
                 <span class="right badge badge-warning">Position</span>
               </p>
             </a>
+            <ul class="nav nav-treeview" style="display: block;">
+              <li class="nav-item">
+                <a href="{{route('position.index')}}" class="nav-link">
+                  <i class="nav-icon fas fa-arrow-right left"></i>
+                   <p>All  Position</p>
+                </a>
+              </li>
+                         
+            </ul>
           </li>
           <li class="nav-item">
             <a href="{{route('deposit.getdeposit')}}" class="nav-link">
@@ -65,7 +74,7 @@
              <i class="nav-icon fas fa-database left"></i>
               <p>
                 Withdrawals
-                <span class="right badge badge-warning">Withdr<i class="fas fa-angle-left right"></i></span>
+                <span class="right badge badge-warning">Withdraw<i class="fas fa-angle-left right"></i></span>
                 <!-- <i class="fas fa-angle-left right">Deposits</i> -->
               </p>
             </a>
