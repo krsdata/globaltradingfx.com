@@ -24,6 +24,7 @@ class StaffController extends Controller
         $query = Position::where('user_name', Auth()->user()->id)->get();
        $response = array(
           "data" => $query,
+          "user" => User::find(Auth()->user()->id)
        );
 
        return view("staff.index")->with($response);

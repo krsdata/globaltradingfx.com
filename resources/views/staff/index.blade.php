@@ -58,7 +58,7 @@
                       @foreach($data as $position)
                         <tr>
                            <td>{{ $i }}</td>
-                           <td>{{ $position->user_name }}</td>
+                           <td>{{ $user->first_name??'NA' }}</td>
                            <td>{{ $position->market_name }}</td>
                            <td>{{ $position->bid_amount }}</td>
                            <td>{{ $position->p_l_amount }}</td>
