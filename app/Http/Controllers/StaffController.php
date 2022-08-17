@@ -94,7 +94,8 @@ class StaffController extends Controller
     {
        $query = DB::table("withdrawals")
            ->select('withdrawals.*', 'us.first_name')
-           ->leftJoin("users as us", "us.id", "=", "withdrawals.request_by")->get();
+           ->leftJoin("users as us", "us.id", "=", "withdrawals.request_by")
+           ->where('request_by', Auth()->user()->id)->get();
         $response = array(
           "data" => $query,
        );
