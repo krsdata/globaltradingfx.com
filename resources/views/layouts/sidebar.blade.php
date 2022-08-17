@@ -107,24 +107,24 @@
           </li>
           <li class="nav-item">
             <a href="{{route('position.index')}}" class="nav-link">
-              <i class="nav-icon fa fa-credit-card"></i>
+              <i class="nav-icon fas fa-credit-card"></i>
               <p>
                 Deposits
-                <span class="right badge badge-warning">Deposits<i class="fas fa-angle-left right"></i></span>
+                <span class="right badge badge-warning">Deposits<i class="nav-icon fas fa-angle-left right"></i></span>
                 <!-- <i class="fas fa-angle-left right">Deposits</i> -->
               </p>
             </a>
             <ul class="nav nav-treeview" style="display: block;">
               <li class="nav-item">
                 <a href="{{route('deposit.add')}}" class="nav-link">
-                  <i class="fa fa-arrow-right left" aria-hidden="true"></i>
-                   <p>Add Deposits</p>
+                  <i class="nav-icon fas fa-arrow-right left" aria-hidden="true"></i>
+                   <p>Add Deposit</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{{route('deposit.getdeposit')}}" class="nav-link">
-                  <i class="fa fa-arrow-right left"></i>
-                  <p>ALL Deposits</p>
+                  <i class="nav-icon fas fa-arrow-right left"></i>
+                  <p>All Deposit</p>
                 </a>
               </li>           
             </ul>
@@ -132,24 +132,24 @@
 
           <li class="nav-item">
             <a href="{{route('withdrawal.getwithdrawal')}}" class="nav-link">
-             <i class="nav-icon fa fa-database left"></i>
+             <i class="nav-icon fas fa-database left"></i>
               <p>
                 Withdrawals
-                <span class="right badge badge-warning">Withdr<i class="fas fa-angle-left right"></i></span>
+                <span class="right badge badge-warning">Withdrawal<i class="nav-icon fas fa-angle-left right"></i></span>
                 <!-- <i class="fas fa-angle-left right">Deposits</i> -->
               </p>
             </a>
             <ul class="nav nav-treeview" style="display: block;">
               <li class="nav-item">
                 <a href="{{route('withdrawal.add')}}" class="nav-link">
-                  <i class="fa fa-arrow-right left"></i>
+                  <i class="nav-icon fas fa-arrow-right left"></i>
                    <p>Withdrawal Request</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{{route('withdrawal.getwithdrawal')}}" class="nav-link">
-                  <i class="fa fa-arrow-right left"></i>
-                  <p>ALL Withdrawals</p>
+                  <i class="nav-icon fas fa-arrow-right left"></i>
+                  <p>All Withdrawals</p>
                 </a>
               </li>           
             </ul>
