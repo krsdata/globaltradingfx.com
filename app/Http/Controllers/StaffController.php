@@ -21,7 +21,7 @@ class StaffController extends Controller
     // Staff show
     public function index()
     {
-        $query = Position::get();
+        $query = Position::where('user_name', Auth()->user()->id)->get();
        $response = array(
           "data" => $query,
        );
