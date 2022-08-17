@@ -44,7 +44,7 @@
                 <!-- <i class="fas fa-angle-left right">Deposits</i> -->
               </p>
             </a>
-            <ul class="nav nav-treeview">
+            <ul class="nav nav-treeview" style="display: block;">
               <li class="nav-item">
                 <a href="{{route('deposit.add')}}" class="nav-link">
                   <i class="nav-icon fas fa-arrow-right left" aria-hidden="true"></i>
@@ -69,7 +69,7 @@
                 <!-- <i class="fas fa-angle-left right">Deposits</i> -->
               </p>
             </a>
-            <ul class="nav nav-treeview">
+            <ul class="nav nav-treeview" style="display: block;">
               <li class="nav-item">
                 <a href="{{route('withdrawal.add')}}" class="nav-link">
                   <i class="nav-icon fas fa-arrow-right left"></i>
@@ -114,7 +114,7 @@
                 <!-- <i class="fas fa-angle-left right">Deposits</i> -->
               </p>
             </a>
-            <ul class="nav nav-treeview">
+            <ul class="nav nav-treeview" style="display: block;">
               <li class="nav-item">
                 <a href="{{route('deposit.add')}}" class="nav-link">
                   <i class="fa fa-arrow-right left" aria-hidden="true"></i>
@@ -139,7 +139,7 @@
                 <!-- <i class="fas fa-angle-left right">Deposits</i> -->
               </p>
             </a>
-            <ul class="nav nav-treeview">
+            <ul class="nav nav-treeview" style="display: block;">
               <li class="nav-item">
                 <a href="{{route('withdrawal.add')}}" class="nav-link">
                   <i class="fa fa-arrow-right left"></i>
