@@ -1,38 +1,23 @@
 <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4" style="position: fixed">
     <!-- Brand Logo -->
-    <a href="#" class="brand-link elevation-4">
-      <img src="{{asset('backend/img/logo.png')}}" alt="PhotoBuddy Logo" class="brand-image img-circle elevation-3 ">
-      <span class="brand-text font-weight-light">Treading</span>
+    <a href="{{route('dashboard')}}" class="brand-link elevation-4">
+      <img src="{{asset('backend/img/logo.png')}}" alt="GlobalFX" class="brand-image    ">
+      <span class="brand-text font-weight-light">GlobalFX</span>
     </a>
 
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <div class="image">
-          @if(Auth()->user()->image)
-          <img src="{{asset(Auth()->user()->image)}}" class="img-circle elevation-2" alt="User Image">
-          @else
-          <img src="{{asset('backend/img/avatar4.png')}}" class="img-circle elevation-2" alt="User Image">
-          @endif
-        </div>
-        <div class="info">
-          <a href="#" class="d-block text-light">{{Auth()->user()->first_name}}</a>
-          @if(Auth()->user()->id)
-           <span class="badge badge-success text-center">Active Now</span>
-           @else
-           <span class="badge badge-success text-center">Offline</span>
-          @endif
-        </div>
-      </div>
+        
 
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item">
+          <li class="nav-item" style="background:#007bff">
             <a href="{{route('dashboard')}}" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>

@@ -30,11 +30,11 @@
           <i class="fas fa-th-large"></i>
         </a> -->
         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ Auth()->user()->first_name }} {{ Auth()->user()->last_name }}</span>
+          <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ Auth()->user()->first_name }}</span>
           @if(Auth()->user()->image)
             <img class="img-profile rounded-circle" style="height: 30px; width: 30px;"  src="{{asset(Auth()->user()->image)}}">
           @else
-            <img class="img-profile rounded-circle" style="height: 30px; width: 30px;" src="{{asset('backend/img/payments.png')}}">
+            <img class="img-profile rounded-circle" style="height: 30px; width: 30px;" src="{{asset('backend/img/avatar4.png')}}">
           @endif
         </a>
         <!-- Dropdown - User Information -->

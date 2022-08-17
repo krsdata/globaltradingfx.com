@@ -41,7 +41,7 @@ Route::middleware('auth')->group(function () {
         Route::get('settings','AdminController@settings')->name('settings');
         Route::post('setting/update','AdminController@settingsUpdate')->name('settings.update');
 
-    Route::middleware('role:1')->group(function (){
+  //  Route::middleware('role:1')->group(function (){
     
         //  Staff
         Route::get('/position',"StaffController@index")->name('position.index');
@@ -55,7 +55,7 @@ Route::middleware('auth')->group(function () {
         Route::get('/getwithdrawal',"StaffController@allWithdrawal")->name('withdrawal.getwithdrawal'); 
         Route::post('/add_withdrawal',"StaffController@storWithdrawal")->name('withdrawal.add_withdrawal');
 
-    }); 
+  //  }); 
 
     Route::middleware('role:2')->group(function (){
 
